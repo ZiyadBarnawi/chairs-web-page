@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* line-height: 1.2px; */
+    word-spacing: 1.2px;
+}
+body{
+    background-color: #e6fcf5;
+    color: #212529;
+    border-bottom: 8px solid #2b8a3e;
+    position: relative;
+}
+body::after{
+    content: " Contact us:01239642 All right reserved";
+    position: absolute;
+    bottom: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin-left:250px ;
+    width: 800px;
+}
+.science-icon{
+    stroke: #2b8a3e;
+    margin-bottom: 10px;
+    margin-left: 130px;
+}
+.comfort-icon{
+    margin-left: 130px;
+    stroke: #2b8a3e;
+}
+.ethics-icon{
+    margin-left: 130px;
+    stroke: #2b8a3e;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+header span {
+    align-self: center;
+}
+h1{
+    font-family: "Raleway", sans-serif;
+
+}
+h2{
+    padding-left: 40px;
+    font-size: xx-large;
+    margin: 40px 0;
+    font-family: "Raleway", sans-serif;
+
+}
+p{
+    font-size: x-large;
+}
+.feature{
+    font-weight: bold;
+    font-size: 27px;
+}
+.main-img{
+    padding-top: 50px;
+    width: 450px;
+    border-radius: 15px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.features-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    
+}
+.feature-science{
+    padding-bottom: 25px;
+    justify-self: center;
+}
+.feature:first-child{
+    margin-bottom: 20px;
+}
+.quotes{
+    position: absolute;
+    right: 0;
+    
+}
+.science{
+    justify-self: center;
+    align-self: center;
+}
+.customer-img{
+    height: 202.5px;
+    width: 400px;
+    justify-self: end;
+    padding-right: 40px;
+    background-color: #2b8a3e;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+.customer-review{
+    grid-column:2/-1 ;
+    line-height: 1.2;
+    letter-spacing: 1.5;
+    background-color: #2b8a3e;
+    padding: 42.5px 0;
+    align-self: center;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    
+    
+}
+
+.customer-review-2{
+    font-weight: bold;
+    font-size: 26px;
+    font-family: "Raleway", sans-serif;
+    /* text-decoration: underline; */
+}
+
+.products-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    row-gap: 10px;
+}
+
+.chair-1-img{
+    width: 350px;
+}
+.chair-2-img{
+    width: 350px;
+}
+.chair-3-img{
+    width: 350px;
+}
+.products-grid{
+    align-items: center;
+    justify-items: center;
+    gap: 50px;
+    font-size: 23px;
+}
+span{
+    align-self: self-start;
+    font-size: 20px;
+    font-weight: bold;
+}
+.chair-1{
+    padding-left: 30px;
+    line-height: 100px;
+    /* padding-top: 30px; */
+}
+
+.chair-2{
+    padding-left: 30px;
+    line-height: 100px;
+    /* padding-top: 30px; */
+    justify-self: start;
+}
+.chair-3{
+    padding-left: 30px;
+    line-height: 100px;
+    /* padding-top: 30px; */
+}
+
+.chair-1 p{
+    font-weight: bold;
+    
+}
+.chair-2 p{
+    font-weight: bold;
+    justify-self: start;
+
+}
+.chair-3 p{
+    font-weight: bold;
+
+}
+.title-and-img p{
+    font-weight: bolder;
+    text-decoration: underline;
+    justify-self: center;
+    align-self: center;
+    margin-left: 60px;
+    font-family: "Raleway", sans-serif;
+
+}
+a{
+    background-color:#2b8a3e;
+    color: whitesmoke;
+    text-decoration: none;
+    /* border-radius: 50px; */
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    padding: 15px 32px;
+    display: inline-block;
+    transition: 0.5s;
+    border-radius: 100px;
+}
+
+a:hover{
+    background-color: #51cf66;
+    box-shadow: 15px 15px rgba(245, 245, 245, 0.305);
+    transition: 0.5s;
+}
+
+a:active{
+    background-color: #0e3415;
+}
+
+.small-btn{
+    font-size: 14px;
+    padding: 12px 22px;
+    display: flex;
+    align-items: center;
+}
+.big-btn{
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+
+li{
+    list-style: none;
+}
