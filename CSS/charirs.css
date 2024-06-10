@@ -9,7 +9,7 @@
 }
 body{
     background-color: #e6fcf5;
-    color: #212529;
+    color: #495057;
     border-bottom: 8px solid #2b8a3e;
     position: relative;
 }
@@ -76,9 +76,14 @@ header{
     align-items: center;
     justify-content: center;
     gap: 100px;
+  
 }
 header span {
     align-self: center;
+}
+
+header,section{
+    margin-bottom: 80px;
 }
 h1{
     font-family: "Raleway", sans-serif;
@@ -87,7 +92,8 @@ h1{
 h2{
     padding-left: 40px;
     font-size: xx-large;
-    margin: 40px 0;
+    margin-bottom: 0;
+    margin-top: 40px;
     font-family: "Raleway", sans-serif;
 
 }
@@ -167,7 +173,7 @@ p{
 .products-grid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 0.25fr ;
     row-gap: 10px;
 }
 
@@ -182,7 +188,7 @@ p{
 }
 .products-grid{
     align-items: center;
-    justify-items: center;
+    /* justify-items: center; */
     gap: 50px;
     row-gap: 0;
     font-size: 23px;
@@ -225,6 +231,10 @@ span{
 
 }
 
+.chair-1:hover, .chair-2:hover,.chair-3:hover{
+
+    box-shadow: 2px 4px 20px #0e3415;
+} 
 .chair-1 p{
     font-weight: bold;
     
@@ -238,8 +248,15 @@ span{
     font-weight: bold;
 
 }
+.chair-1-span{
+    margin-top: 10px;
+}
 .chair-2-span{
+    margin-top: 10px;
     margin-right: 20px;
+}
+.chair-3-span{
+margin-top: 10px;
 }
 
 .title-and-img p{
@@ -287,10 +304,18 @@ a:active{
     align-items: center;
     width: 250px;
 }
+ul{
+    padding-top: 0;
+    padding-bottom: 0;
+}
 .ul-err{
-margin-left: 53px;
-margin-right: 40px;
+margin-left: 8px;
+margin-right: 87px;
 }
 li{
     list-style: none;
 }
+.products-section{
+    margin-top: 100px;
+}
+
